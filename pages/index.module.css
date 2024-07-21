@@ -1,0 +1,92 @@
+.home {
+  width: 100%;
+  position: relative;
+  background-color: #292626;
+  height: 1107px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-lgi);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}
+
+.outer {
+  margin-top: 0;
+  padding-top: 10%;
+  background-color: #ffffff;
+}
+
+.chartContainer {
+  position: relative;
+  height: 400px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.canvas {
+  display: block;
+}
+
+.sectionClass {
+  padding-left: 10%;
+}
+
+.bitcoinSection, .ethereumSection {
+  padding-left: 10%;
+}
+
+.sectionClass h2{
+  text-align: center;
+  color: rgb(0, 0, 0); 
+  text-shadow: 2px 2px 2px rgb(200, 195, 195);
+  font-size: 3rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  animation: fadeIn 2s;
+}
+
+.ethereumSection h2, .bitcoinSection h2 {
+  text-align: center;
+  color: rgb(0, 0, 0); 
+  text-shadow: 2px 2px 2px rgb(200, 195, 195);
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  animation: fadeIn 2s;
+}
+
+
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.bitcoinSection li, .ethereumSection li {
+  background-color: #ffffff;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.112);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  min-width: 100px;
+  width: 250px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.bitcoinSection li:hover, .ethereumSection li:hover {
+  background-color: #cbc5c5;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.bitcoinSection ul, .ethereumSection ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+}

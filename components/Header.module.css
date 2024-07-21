@@ -1,0 +1,104 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  z-index: 100;
+}
+
+.searchInput {
+  width: 100%;
+  max-width: 400px;
+  min-width: 200px;
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  height: 30px;
+  width: 300px;
+}
+
+.suggestionsList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  /* width: 100%; */
+  max-width: 400px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  position: absolute;
+  z-index: 1000;
+  margin-top: 10px; /* Adjust this as needed */
+}
+
+.suggestionItem {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.suggestionItem:hover {
+  background-color: #8b8888;
+}
+
+.blurBackground {
+  backdrop-filter: blur(5px);
+}
+
+
+.dropdown {
+  position: absolute;
+  top: 100%;
+  left: 40%;
+  right: 0;
+  background-color: #000000;
+  border: 1px solid #ccc;
+  z-index: 1000;
+  max-height: fit-content;
+  width: 400px;
+
+}
+
+.dropdownItem {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdownItem:hover {
+  background-color: #5b5b5b;
+}
+
+.navLinks {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navLinks a{
+  text-decoration: none;
+  color: rgb(20, 18, 18);
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  min-width: 100px;
+}
+
+.navLinks a:hover{
+  color: rgb(255, 255, 255);
+  background-color: #000000;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 500;
+  /* backdrop-filter: blur(5px); */
+}

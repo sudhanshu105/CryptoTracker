@@ -1,0 +1,74 @@
+.coinList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.coinTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.coinTable thead tr {
+  background-color: #f8f8f8;
+  /* text-align: center; */
+}
+
+.coinTable th, .coinTable td {
+  padding: 12px 15px;
+}
+
+.coinTable tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.coinTable tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.coinTable tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.coinTable tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.coinLink {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.coinIcon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.isDragging {
+  opacity: 0.5;
+}
+
+.addButton {
+  background-color: #84b991;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.addButton:hover {
+  background-color: #218838;
+}

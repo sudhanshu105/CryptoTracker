@@ -1,0 +1,61 @@
+.watchlist {
+  /* border: 1px solid #ffffff; */
+  padding: 20px;
+  /* min-height: 100px; */
+  min-height: 10%;
+  height: fit-content;
+  max-height: fit-content;
+  background-color: #ffffff;
+  width: 300px;
+  margin-left: 20px;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.112); /* Subtle box shadow */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.isOver {
+  background-color: #e0e0e0;
+}
+
+.headerRow {
+  width: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 2px solid #ddd;
+}
+
+.headerCell {
+  font-weight: bold;
+  /* flex: 1; */
+}
+
+
+.coinRow {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.coin {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.coinIcon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
