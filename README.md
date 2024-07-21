@@ -9,3 +9,6 @@
 
 
 ## Live website can be found at : https://crypto-tracker-eta-navy.vercel.app/
+
+
+## Note: Do not refresh the page quickly as the coinGekko api used has constraint of 30 requests per minute
