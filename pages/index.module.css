@@ -90,3 +90,42 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+@media (max-width: 480px) {
+  .home {
+    width: 100%;
+    position: relative;
+    background-color: #292626;
+    height: 1107px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-lgi);
+    color: var(--color-black);
+    font-family: var(--font-inter);
+  }
+  
+  .outer {
+    margin-top: 0;
+    padding-top: 35%;
+    background-color: #ffffff;
+  }
+  
+  .chartContainer {
+    position: relative;
+    height: fit-content;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .sectionClass {
+    padding-left: 1%;
+  }
+  
+  .bitcoinSection, .ethereumSection {
+    margin: auto;
+    padding-left: 8%;
+    align-items: center;
+    justify-content: center;
+  }
+}

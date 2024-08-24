@@ -16,7 +16,6 @@
 
 .coinTable thead tr {
   background-color: #f8f8f8;
-  /* text-align: center; */
 }
 
 .coinTable th, .coinTable td {
@@ -71,4 +70,52 @@
 
 .addButton:hover {
   background-color: #218838;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .coinTable th, .coinTable td {
+    padding: 8px 10px;
+  }
+
+  .addButton {
+    padding: 4px 8px;
+  }
+
+  .coinIcon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .coinTable {
+    font-size: 0.9rem;
+  }
+
+  .addButton {
+    padding: 3px 6px;
+    font-size: 0.8rem;
+  }
+
+  .coinIcon {
+    width: 18px;
+    height: 18px;
+  }
+
+  .coinList {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .coinTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-wrap: wrap;
+    text-align: left;
+    margin-top: 90%;
+  }
 }
