@@ -128,4 +128,22 @@
     align-items: center;
     justify-content: center;
   }
+
+  .sectionClass h2{
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    animation: fadeIn 2s;
+  }
+  
+  .ethereumSection h2, .bitcoinSection h2 {
+    text-align: center;
+    color: rgb(0, 0, 0); 
+    text-shadow: 2px 2px 2px rgb(200, 195, 195);
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    animation: fadeIn 2s;
+  }
+  
 }
